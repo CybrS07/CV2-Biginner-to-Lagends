@@ -1,0 +1,19 @@
+[project]
+name = "cv2-biginner-to-lagends"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "TAHA", email = "james.alexander.rkh@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "opencv-python>=5.0.0.93",
+]
+
+[project.scripts]
+cv2-biginner-to-lagends = "cv2_biginner_to_lagends:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
